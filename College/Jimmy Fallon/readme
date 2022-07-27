@@ -1,3 +1,7 @@
+This program was created to simulate buying tickets to a Jimmy Fallon show with callers calling a certain number of operators 
+for the show all at once to buy a limited number of tickets 
+
+
 The program starts by declaring semiphores globally
 Then in main it creates an array of 240 pthreads and initializes them in a for loop
 the a later for loop waits for them all to finish
