@@ -1,0 +1,10 @@
+The program starts by declaring semiphores globally
+Then in main it creates an array of 240 pthreads and initializes them in a for loop
+the a later for loop waits for them all to finish
+The phone call method increments the caller's id and checks to see if there is a line available
+If not it waits till one is
+When one is availible it allows the caller to wait for an operator and increments connected
+When an operator is free the client orders their ticket in 1 second and then exits and deincrements connected
+This continues until all calls are finished.  
+
+The link to video is https://www.youtube.com/watch?v=D4yPMMV1T2Q&feature=youtu.be
